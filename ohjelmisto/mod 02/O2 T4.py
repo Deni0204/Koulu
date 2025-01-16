@@ -1,13 +1,14 @@
 import math
-Kokonaisluku1= int(input("kokonaisluku 1") )
-Kokonaisluku2= int(input("kokonaisluku 2") )
-Kokonaisluku3= int( input("kokonaisluku 3 ") )
-summa = Kokonaisluku2 + Kokonaisluku1 + Kokonaisluku3
-tulo = Kokonaisluku1 * Kokonaisluku2 * Kokonaisluku3
-keskiarvo = Kokonaisluku1 + Kokonaisluku2 + Kokonaisluku3 / 3
+Kokonaisluku1_int= int(input("kokonaisluku 1") )
+Kokonaisluku2_int= int(input("kokonaisluku 2") )
+Kokonaisluku3_int= int( input("kokonaisluku 3 ") )
+summa_int = Kokonaisluku2_int + Kokonaisluku1_int + Kokonaisluku3_int
+tulo_int = Kokonaisluku1_int * Kokonaisluku2_int * Kokonaisluku3_int
+keskiarvo_float = float( Kokonaisluku1_int+ Kokonaisluku2_int + Kokonaisluku3_int / 3)
+x= round(keskiarvo_float, 2)
+print(f"Kokonaisluku summa = {summa_int}")
+print(f"Kokonaisluku tulo = {tulo_int}")
+print(f" Kokonaisluku keskiarvo = {x}")
 
-print(f"Kokonaisluku summa = {summa}")
-print(f"Kokonaisluku tulo = {tulo}")
-print(f" Kokonaisluku keskiarvo = {keskiarvo}")
 
 
